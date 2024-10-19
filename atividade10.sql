@@ -37,14 +37,13 @@ CREATE TABLE IF NOT EXISTS `MATRICULA` (
 ) ENGINE = InnoDB;
 
 -- Inserção de dados na tabela ALUNO
-INSERT INTO `ALUNO` (nome, curso, nivel, idade) VALUES( 'Israel', 'JEEEVA', 2, 19);
-INSERT INTO `ALUNO` (nome, curso, nivel, idade) VALUES( 'Dênis', 'JEEEVA AND PHYTARAM', 3, 22);
-INSERT INTO `ALUNO` (nome, curso, nivel, idade) VALUES( 'Ale', 'JEEEVA', 2, 30);
-INSERT INTO `ALUNO` (nome, curso, nivel, idade) VALUES( 'Vitti', 'FULL STACK', 4, 21);
-INSERT INTO `ALUNO` (nome, curso, nivel, idade) VALUES( 'Henrique', 'FULL STACK', 5, 30);
+INSERT INTO `ALUNO` (nome, curso, nivel, idade) VALUES( 'Thales', 'Nestjs', 2, 19);
+INSERT INTO `ALUNO` (nome, curso, nivel, idade) VALUES( 'Jacques', 'Phyton', 3, 22);
+INSERT INTO `ALUNO` (nome, curso, nivel, idade) VALUES( 'Mayara', 'Java', 2, 30);
+INSERT INTO `ALUNO` (nome, curso, nivel, idade) VALUES( 'Vanessa', 'FULL STACK', 4, 21);
+INSERT INTO `ALUNO` (nome, curso, nivel, idade) VALUES( 'Carlos', 'FULL STACK', 5, 30);
 INSERT INTO `ALUNO` (nome, curso, nivel, idade) VALUES( 'PERNA LONGA', 'CORREDOR', 5, 30);
 INSERT INTO `ALUNO` (nome, curso, nivel, idade) VALUES( 'PATOLINO', 'CORREDOR', 4, 28);
-INSERT INTO `ALUNO` (nome, curso, nivel, idade) VALUES( 'PERNA BAMBA', 'BAMBO', 7, 100);
 
 -- Inserção de dados na tabela TURMA
 INSERT INTO `TURMA` (nometurma, sala, horario) VALUES ("Turma 1", 1, "09:00 - 12:00");
